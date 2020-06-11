@@ -169,7 +169,7 @@ exit 1
 fi
 printf "\n"
 printf "\e[1;77m[*] Starting...\e[0m\n"
-printf "\e[1;91m [*] Crtl + C  BO Wastan YAN Xazn krdy session\e[0m\n"
+printf "\e[1;91m [*] Crtl + C  BO Wastan YAN Xazn krdny session\e[0m\n"
 sleep 2
 }
 
@@ -177,7 +177,7 @@ function store() {
 
 if [[ -n "$threads" ]]; then
 printf "\n"
-printf "\e[1;91m [*] Waiting threads shutting down...\n\e[0m"
+printf "\e[1;91m [*] Chawareka Ta Dawastet...\n\e[0m"
 wait $pid1 > /dev/null 2>&1 ; wait $pid2 > /dev/null 2>&1 ; wait $pid3 > /dev/null 2>&1 ; wait $pid4 > /dev/null 2>&1 ; wait $!;
 sleep 6
 
