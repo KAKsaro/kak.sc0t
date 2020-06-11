@@ -42,7 +42,7 @@ printf "\n"
 
 
 function start() {
-read -p $'\e[1;92mNawy Insyaka: \e[0m' user
+read -p $'\e[1;92mNawy Instaka: \e[0m' user
 checkaccount=$(curl -L -s https://www.instagram.com/$user/ | grep -c "the page may have been removed")
 if [[ "$checkaccount" == 1 ]]; then
 printf "\e[1;91mNawaka Halaya! Try again\e[0m\n"
@@ -169,7 +169,7 @@ exit 1
 fi
 printf "\n"
 printf "\e[1;77m[*] Starting...\e[0m\n"
-printf "\e[1;91m [*] Press Crtl + C to Stop/Save session\e[0m\n"
+printf "\e[1;91m [*] Crtl + C  BO Wastan YAN Xazn krdy session\e[0m\n"
 sleep 2
 }
 
@@ -201,7 +201,7 @@ fi
 IFS=$'\n'
 countpass=$(grep -n -x "$pass" "$wl_pass" | cut -d ":" -f1)
 printf "user=\"%s\"\npass=\"%s\"\nwl_pass=\"%s\"\ntoken=\"%s\"\n" $user $pass $wl_pass $countpass > sessions/store.session.$user.$(date +"%FT%H%M")
-printf "\e[1;77mSession saved.\e[0m\n"
+printf "\e[1;77mFaylaka Xazn bu.\e[0m\n"
 printf "\e[1;92mUse ./instainsane.sh --resume\n"
 else
 exit 1
