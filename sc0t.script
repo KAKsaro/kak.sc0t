@@ -30,11 +30,11 @@ var2=$(echo $var0 | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 
 banner() {
 
-printf "\e[1;95m  _  __S   _C   _  __0  \e[0m\e[1;91m          ___T _M   \e[0m\n"
-printf "\e[1;95m | |/ /   / \  | |/ / \e[0m\e[1;91m  ___  ___ / _ \| |_  \e[0m\n"
-printf "\e[1;95m | ' /   / _ \ | ' / \e[0m\e[1;91m  / __|/ __| | | | __| \e[0m\n"
-printf "\e[1;95m | . \  / ___ \| . \ \e[0m\e[1;91m  \__ \ (__| |_| | |_   \e[0m\n"
-printf "\e[1;77m |_|\_\/_/   \_\_|\_\ \e[0m\e[1;77m |___/\___|\___/ \__| \e[0m\n"
+printf "\e[1;95m  _  __    _    _  __  \e[0m\e[1;91m sc0tm_tools___  _    \e[0m\n"
+printf "\e[1;95m | |/ /   / \  | |/ / \e[0m\e[1;91m   ___  ___ / _ \| |_  \e[0m\n"
+printf "\e[1;95m | ' /   / _ \ | ' / \e[0m\e[1;91m   / __|/ __| | | | __| \e[0m\n"
+printf "\e[1;95m | . \  / ___ \| . \ \e[0m\e[1;91m   \__ \ (__| |_| | |_   \e[0m\n"
+printf "\e[1;77m |_|\_\/_/   \_\_|\_\ \e[0m\e[1;77m  |___/\___|\___/ \__| \e[0m\n"
 printf "\n"
 printf "\e[1;77m\e[41m  Instagram Brute Forcer v1.0, Author: @thelinuxchoice (Github/IG)  \e[0m\n" #Don't change, noob
 printf "\n"
@@ -177,7 +177,7 @@ function store() {
 
 if [[ -n "$threads" ]]; then
 printf "\n"
-printf "\e[1;91m [*] Chawareka Ta Dawastet...\n\e[0m"
+printf "\e[1;91m [*] chawareka ta dawastet....\n\e[0m"
 wait $pid1 > /dev/null 2>&1 ; wait $pid2 > /dev/null 2>&1 ; wait $pid3 > /dev/null 2>&1 ; wait $pid4 > /dev/null 2>&1 ; wait $!;
 sleep 6
 
