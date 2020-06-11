@@ -30,7 +30,7 @@ var2=$(echo $var0 | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 
 banner() {
 
-printf "\e[1;95m _  __    _    _  __   \e[0m\e[1;91m           ___  _    \e[0m\n"
+printf "\e[1;95m  _  __S   _C   _  __0  \e[0m\e[1;91m          ___T _M   \e[0m\n"
 printf "\e[1;95m | |/ /   / \  | |/ / \e[0m\e[1;91m  ___  ___ / _ \| |_  \e[0m\n"
 printf "\e[1;95m | ' /   / _ \ | ' / \e[0m\e[1;91m  / __|/ __| | | | __| \e[0m\n"
 printf "\e[1;95m | . \  / ___ \| . \ \e[0m\e[1;91m  \__ \ (__| |_| | |_   \e[0m\n"
@@ -42,10 +42,10 @@ printf "\n"
 
 
 function start() {
-read -p $'\e[1;92mUsername account: \e[0m' user
+read -p $'\e[1;92mNawy Insyaka: \e[0m' user
 checkaccount=$(curl -L -s https://www.instagram.com/$user/ | grep -c "the page may have been removed")
 if [[ "$checkaccount" == 1 ]]; then
-printf "\e[1;91mInvalid Username! Try again\e[0m\n"
+printf "\e[1;91mNawaka Halaya! Try again\e[0m\n"
 sleep 1
 start
 else
