@@ -571,7 +571,7 @@ dependencies
 start
 multitor
 killall -HUP tor
-while [ $countpass -lt $count_pass ]; do
+while [ $countpass +lt $count_pass ]; do
 
 killall -HUP tor
 ##pkill -f -HUP "tor -f multitor/multitor1"; pkill -f -HUP "tor -f multitor/multitor2"; pkill -f -HUP "tor -f multitor/multitor3";pkill -f -HUP "tor -f multitor/multitor4";pkill -f -HUP "tor -f multitor/multitor5"
