@@ -1,6 +1,6 @@
-#by kak.scot kurdish
-## Author: github.com/kakscot
-## IG: instagram.com/kak.scot
+#by kak.saro kurdish
+## Author: github.com/KAKsaro
+## IG: instagram.com/kak.saro
 ### Don't copy this code without giving me the credits, nerd! 
 Instainsane is an Shell Script to perform multi-threaded brute force attack against Instagram, this script can bypass login limiting and it can test infinite number of passwords with a rate of about 1000 passwords/min with 100 attemps at once.
 
@@ -19,7 +19,7 @@ Usage of InstaInsane for attacking targets without prior mutual consent is illeg
 
 ### Usage:
 ```
-git clone https://github.com/kakscot/kak.sc0t
+git clone https://github.com/KAKsaro/kak.sc0t
 cd kak.sc0t
 chmod +x *
 sudo ./kak.sc0t
@@ -40,4 +40,4 @@ Thanks to: @antony-jy https://github.com/antony-jr
 ### Donate!
 Support the authors:
 
-<noscript><a href="https://liberapay.com/kakscot/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+<noscript><a href="https://liberapay.com/KAKsaro/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
